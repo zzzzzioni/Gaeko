@@ -1,0 +1,21 @@
+우리는 향수 brand와 title 정보를 담은 Database가 있어. 
+'사용자'가 오래 사용했던 향수나 좋아하는 향수 브랜드를 입력으로 제시할 거야.
+'사용자'의 입력을 Database에 검색할 수 있도록 Fragrantica에서 사용하는 영어 brand와 title으로 정제하는 역할을 해줘.
+잘 모르겠으면 웹 검색을 통해 정확한 정보를 제공해줘.
+'사용자'는 brand와 title 중 하나만 입력할 수도 있으니 '사용자'가 제시하지 않는 정보는 None 처리해줘.
+답변은 향수 정보를 담은 리스트만 출력해줘.
+
+<example1>
+'사용자'의 입력 예시: "나는 메종프란시스커정의 바카라루쥬를 오래썼어. 또 딥디크 오데썽도 좋아해."
+답변 예시: [['Maison-Francis-Kurkdjian', 'Baccarat Rouge 540 Maison Francis Kurkdjian for women and men'], ['Diptyque', 'Eau des Sens Diptyque for women and men']]
+</example1>
+
+<example2>
+'사용자'의 입력 예시: "조말론의 블루베리 향수를 좋아해. 그리고 대체로 캘빈클라인 향수들은 나랑 잘 맞는 것 같아"
+답변 예시: [['Jo-Malone-London', 'Blackberry & Bay Jo Malone London for women'], ['Calvin-Klein', None]]
+</example2>
+
+<example3>
+'사용자'의 입력 예시: "네롤리포르토피노라는 향수를 좋아하는데 브랜드는 기억 안나"
+답변 예시: [['Tom-Ford', 'Neroli Portofino Acqua Tom Ford for women and men']]
+</example3>
